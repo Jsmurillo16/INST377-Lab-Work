@@ -1,5 +1,60 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Lab 2 - CSS 1 - Selectors: Attaching CSS to HTML</title>
+    <link rel='stylesheet' href='style.css'/>
+  </head>
+  <body>
+    <div class='header'>
+      <h1>Jose Murillo's Labs for INST377</h1>
+    </div>
+    <div class='container'>
+      <div class='box left_section'>
+          <h2>Album Names<h2>
+          <a class='box'>
+            <ol>
+              <li>Un Verano Sin Ti - Bad Bunny</li>
+              <li>Colores - J Balvin</li>
+              <li>Oasis - J Balvin and Bad Bunny</li>
+              <li>Yhlqmdlg(Yo Hago Lo Que Me Da La Gana) - Bad Bunny</li>
+              <li>Come Home the Kids Miss You - Jack Harlow</li>
+            </ol>
+          </a>
+      </div>
+
+      <a class='container'>
+        <div class='box right_section'>
+          <a class='header'>
+          <h2>Image Carousel</h2>
+        </a>
+            
+            <div class="carousel">
+                <button class="prev">Prev</button>
+                <div class="slides">
+                    <div class="carousel_item visible"><img id="slide_1" src='images/juicewrld.jpg'/></div>
+                    <div class="carousel_item hidden"><img id="slide_2" src='images/connection.png'/></div>
+                    <div class="carousel_item hidden"><img id="slide_3" src='images/spacemafia.jpg'/></div>
+                    <div class="carousel_item hidden"><img id="slide_4" src='images/spongebob.png'/></div>
+                </div>
+                <button class="next">Next</button>
+
+            </div>
+            
+
+            <a class='box'>
+              <div class='subtitle'>
+                <p>These are four different images that I liked <br/>
+                  or found interesting. One of them is of one <br/>
+                  my favorite artist juice wrld</p>
+              </div>
+            </a>
+        </div>
+      </a>
+    </div>
+
+    <h3 class='footer'>My GITHUB account name is <a href='https://github.com/Jsmurillo16/INST377-Lab-Work'
+      traget='_blank'>Jose Murillo</a>
+
+  </body>
+</html>
